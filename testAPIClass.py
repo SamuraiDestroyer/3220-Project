@@ -5,8 +5,8 @@ from fastapi import FastAPI, HTTPException, Path
 
 app = FastAPI()
 api_keys_to_files = {
-    "csvtest": r'C:\Users\16479\PycharmProjects\COMP-3220\SampleCSVFile_556kb.csv',
-    "xmltest": r'C:\Users\16479\PycharmProjects\COMP-3220\TestConfigInNamespace.xml',
+    "csvtest": 'SampleCSVFile_556kb.csv',
+    "xmltest": 'TestConfigInNamespace.xml',
     # Add more keys and file paths as needed
 }
 
